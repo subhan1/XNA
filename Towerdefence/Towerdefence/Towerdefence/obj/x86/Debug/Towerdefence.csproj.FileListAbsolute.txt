@@ -1,0 +1,7 @@
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Towerdefence.exe
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Towerdefence.pdb
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Towerdefence.exe
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Towerdefence.pdb
+C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\arrowtower.xnb
