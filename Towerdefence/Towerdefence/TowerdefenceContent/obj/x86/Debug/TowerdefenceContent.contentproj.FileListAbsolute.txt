@@ -1,1 +1,2 @@
 C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\TowerdefenceContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\TowerdefenceContent\obj\x86\Debug\ResolveAssemblyReference.cache

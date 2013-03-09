@@ -11,19 +11,22 @@ namespace Towerdefence
     class Tower : GameObject
     
     {
-        Texture2D texture;
-        public Vector2 position;
+        
+        
         private MouseState _currentState;
         private MouseState _previousState;
-        public Rectangle rectangle;
-        
-      
-
-       
+     
 
 
 
-        public void Update(GameTime gameTime)
+        public override void Initialize(Game game)
+        {
+            _currentState = Mouse.GetState();
+        }
+
+
+
+        public override void Update(GameTime gameTime)
         {
             _previousState = _currentState;
             _currentState = Mouse.GetState();
@@ -32,17 +35,16 @@ namespace Towerdefence
             
             if (_currentState.LeftButton == ButtonState.Pressed && _previousState.LeftButton == ButtonState.Released )
             {
-                // Check if the mouse is clicked over the sprite 
-                if ((_currentState.X > position.X) && (_currentState.X < (position.X + texture.Width)) &&
-                    (_currentState.Y > position.Y) && (_currentState.Y < (position.Y + texture.Height)))
-                {
-                    position = new Vector2(50, 50);
+                
+          
+                    Position = new Point
+                        (_currentState.X, _currentState.Y);
                     
-                }
+                
                 
                 
             }
-          
+            base.Update(gameTime);
         }
 
            public bool IsButtonPressed()

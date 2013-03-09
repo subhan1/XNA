@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\arrowtower.xnb</Output>
+      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\arrowtower.xnb</Output>
       <Time>2013-03-09T22:38:55.3333859+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -16,10 +16,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\TowerdefenceContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\TowerdefenceContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\subhan-b\Documents\Visual Studio 2010\Projects\towerdefence\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\TowerdefenceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\TowerdefenceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
