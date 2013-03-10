@@ -53,22 +53,23 @@ namespace Towerdefence
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            _tower = new Tower();
-            _tower.Drawable = new DrawData(
-                Content.Load<Texture2D>("arrowtower"));
-            _gameObjects.Add(_tower);
-
             foreach (GameObject toInitialize in _gameObjects)
             {
                 toInitialize.Initialize(this);
             }
             Texture2D grass = Content.Load<Texture2D>("Grass Block");
             Texture2D path = Content.Load<Texture2D>("Dirt Block");
-            Texture2D tree= Content.Load<Texture2D>("Tree Tall");
+            Texture2D tree = Content.Load<Texture2D>("Tree Tall");
             level.AddTexture(grass);
             level.AddTexture(path);
             level.AddTexture(tree);
+         
+            _tower = new Tower();
+            _tower.Drawable = new DrawData(
+                Content.Load<Texture2D>("arrowtower"));
+            _gameObjects.Add(_tower);
+
+            
         }
 
         /// <summary>
@@ -109,13 +110,14 @@ namespace Towerdefence
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
+            level.Draw(spriteBatch);
             foreach (GameObject toDraw in _gameObjects)
             {
                 if (toDraw.Drawable != null)
                     drawElement(toDraw.Drawable);
             }
             
-            level.Draw(spriteBatch);
+            
             
             spriteBatch.End();
 
