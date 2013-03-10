@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Towerdefence
 {
@@ -10,6 +11,8 @@ namespace Towerdefence
     {
         public DrawData Drawable { get; set; }
         public Point Position { get; set; }
+    
+
 
         public virtual void Initialize(Game game)
         { }
@@ -20,6 +23,7 @@ namespace Towerdefence
             {
                 Drawable.Position = Position;
             }
+           
         }
     }
 }

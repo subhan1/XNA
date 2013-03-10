@@ -15,13 +15,14 @@ namespace Towerdefence
         
         private MouseState _currentState;
         private MouseState _previousState;
-     
-
+        private Rectangle mouseRec;
+       
 
 
         public override void Initialize(Game game)
         {
             _currentState = Mouse.GetState();
+            Position = new Point(100, 100);
         }
 
 
@@ -30,17 +31,20 @@ namespace Towerdefence
         {
             _previousState = _currentState;
             _currentState = Mouse.GetState();
+
+            mouseRec = new Rectangle(_currentState.X,_currentState.Y,20,20);
             
-                   
-            
-            if (_currentState.LeftButton == ButtonState.Pressed && _previousState.LeftButton == ButtonState.Released )
+            if (_currentState.LeftButton == ButtonState.Pressed )
             {
-                
-          
+               
                     Position = new Point
                         (_currentState.X, _currentState.Y);
-                    
-                
+
+                    if (_previousState.LeftButton == ButtonState.Released)
+                    {
+                        Position = new Point
+                        (_currentState.X, _currentState.Y);
+                    }
                 
                 
             }
