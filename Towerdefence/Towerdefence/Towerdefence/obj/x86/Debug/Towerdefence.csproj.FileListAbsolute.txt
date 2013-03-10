@@ -12,3 +12,6 @@ C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\obj\x86\D
 C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Towerdefence.exe
 C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\obj\x86\Debug\Towerdefence.pdb
+C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\Grass Block.xnb
+C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\Dirt Block.xnb
+C:\Users\subhan-b\Documents\XNA\Towerdefence\Towerdefence\Towerdefence\bin\x86\Debug\Content\Tree Tall.xnb

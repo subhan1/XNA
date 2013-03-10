@@ -21,10 +21,14 @@ namespace Towerdefence
 
         private GameObject _tower;
         List<GameObject> _gameObjects = new List<GameObject>();
-
+        Level level = new Level();
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+
+            graphics.PreferredBackBufferWidth = level.Width * 100;
+            graphics.PreferredBackBufferHeight = level.Height * 100;
+            graphics.ApplyChanges();
             Content.RootDirectory = "Content";
         }
 
@@ -59,6 +63,12 @@ namespace Towerdefence
             {
                 toInitialize.Initialize(this);
             }
+            Texture2D grass = Content.Load<Texture2D>("Grass Block");
+            Texture2D path = Content.Load<Texture2D>("Dirt Block");
+            Texture2D tree= Content.Load<Texture2D>("Tree Tall");
+            level.AddTexture(grass);
+            level.AddTexture(path);
+            level.AddTexture(tree);
         }
 
         /// <summary>
@@ -104,6 +114,9 @@ namespace Towerdefence
                 if (toDraw.Drawable != null)
                     drawElement(toDraw.Drawable);
             }
+            
+            level.Draw(spriteBatch);
+            
             spriteBatch.End();
 
             base.Draw(gameTime);
