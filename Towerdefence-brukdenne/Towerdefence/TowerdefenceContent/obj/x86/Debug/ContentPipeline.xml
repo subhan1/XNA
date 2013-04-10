@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\arrowtower.xnb</Output>
-      <Time>2013-03-11T21:47:10+01:00</Time>
+      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\arrowtower.xnb</Output>
+      <Time>2013-03-12T10:18:48.8086009+01:00</Time>
     </Item>
     <Item>
       <Source>Grass Block.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Grass Block.xnb</Output>
-      <Time>2013-03-11T21:47:10+01:00</Time>
+      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Grass Block.xnb</Output>
+      <Time>2013-03-12T10:18:48.8066008+01:00</Time>
     </Item>
     <Item>
       <Source>Dirt Block.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Dirt Block.xnb</Output>
-      <Time>2013-03-11T21:47:10+01:00</Time>
+      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Dirt Block.xnb</Output>
+      <Time>2013-03-12T10:18:48.8056007+01:00</Time>
     </Item>
     <Item>
       <Source>Tree Tall.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Tree Tall.xnb</Output>
-      <Time>2013-03-11T21:47:10+01:00</Time>
+      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Tree Tall.xnb</Output>
+      <Time>2013-03-12T10:18:48.8086009+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -43,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\TowerdefenceContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\TowerdefenceContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\subhan\Documents\XNA.git\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\TowerdefenceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\TowerdefenceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -74,8 +74,8 @@
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2013-03-10T20:12:46.6399097+01:00</Value>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-01-09T21:08:58.7531921+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
