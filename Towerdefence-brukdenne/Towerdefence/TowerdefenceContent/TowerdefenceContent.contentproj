@@ -49,13 +49,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Grass Block.png">
-      <Name>Grass Block</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Dirt Block.png">
       <Name>Dirt Block</Name>
       <Importer>TextureImporter</Importer>
@@ -63,8 +56,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tree Tall.png">
-      <Name>Tree Tall</Name>
+    <Compile Include="Grass Block.png">
+      <Name>Grass Block</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

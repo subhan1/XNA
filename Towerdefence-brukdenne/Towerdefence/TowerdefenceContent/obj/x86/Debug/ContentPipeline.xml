@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Grass Block.xnb</Output>
-      <Time>2013-03-12T10:18:48.8066008+01:00</Time>
+      <Time>2013-04-10T12:12:14.1786665+02:00</Time>
     </Item>
     <Item>
       <Source>Dirt Block.png</Source>
@@ -26,16 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Dirt Block.xnb</Output>
-      <Time>2013-03-12T10:18:48.8056007+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Tree Tall.png</Source>
-      <Name>Tree Tall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\subhan-b\Documents\XNA\Towerdefence-brukdenne\Towerdefence\Towerdefence\bin\x86\Debug\Content\Tree Tall.xnb</Output>
-      <Time>2013-03-12T10:18:48.8086009+01:00</Time>
+      <Time>2013-04-10T12:12:05.5206512+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

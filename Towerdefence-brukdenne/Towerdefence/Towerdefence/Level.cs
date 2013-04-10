@@ -9,7 +9,10 @@ namespace Towerdefence
 {
     public class Level
     {
-        int[,] map = new int[,] 
+        private List<Texture2D> tileTextures = new List<Texture2D>();
+        private Queue<Vector2> waypoints = new Queue<Vector2>();
+
+        int[,] map = new int[,]
         {
             {0,1,0,0,0,0,0,0,0,0,0,0,0,},
             {0,1,1,1,0,0,0,0,0,0,0,0,0,},
@@ -23,6 +26,11 @@ namespace Towerdefence
             {0,0,0,0,0,0,0,0,0,0,0,1,0,},
         };
 
+        public Queue<Vector2> Waypoints
+        {
+            get { return waypoints; }
+        }
+
         public int Width
         {
             get { return map.GetLength(1); }
@@ -32,7 +40,29 @@ namespace Towerdefence
             get { return map.GetLength(0); }
         }
 
-        private List<Texture2D> tileTextures = new List<Texture2D>();
+        public Level()
+        {
+            waypoints.Enqueue(new Vector2(2, 0) * 32);
+            waypoints.Enqueue(new Vector2(2, 1) * 32);
+            waypoints.Enqueue(new Vector2(3, 1) * 32);
+            waypoints.Enqueue(new Vector2(3, 2) * 32);
+            waypoints.Enqueue(new Vector2(4, 2) * 32);
+            waypoints.Enqueue(new Vector2(4, 4) * 32);
+            waypoints.Enqueue(new Vector2(3, 4) * 32);
+            waypoints.Enqueue(new Vector2(3, 5) * 32);
+            waypoints.Enqueue(new Vector2(2, 5) * 32);
+            waypoints.Enqueue(new Vector2(2, 7) * 32);
+            waypoints.Enqueue(new Vector2(7, 7) * 32);
+        }
+
+        public int GetIndex(int cellX, int cellY)
+        {
+            // It needed to be Width - 1 and Height - 1.
+            if (cellX < 0 || cellX > Width - 1 || cellY < 0 || cellY > Height - 1)
+                return 0;
+
+            return map[cellY, cellX];
+        }
 
         public void AddTexture(Texture2D texture)
         {
@@ -46,12 +76,13 @@ namespace Towerdefence
                 for (int y = 0; y < Height; y++)
                 {
                     int textureIndex = map[y, x];
+
                     if (textureIndex == -1)
                         continue;
 
                     Texture2D texture = tileTextures[textureIndex];
-                    batch.Draw(texture, new Rectangle(
-                        x * 64, y * 64, 64, 128), Color.White);
+
+                    batch.Draw(texture, new Rectangle(x * 64, y * 64, 64, 64), Color.White);
                 }
             }
         }

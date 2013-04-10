@@ -27,8 +27,8 @@ namespace Towerdefence
         {
             graphics = new GraphicsDeviceManager(this);
 
-            graphics.PreferredBackBufferWidth = level.Width * 100;
-            graphics.PreferredBackBufferHeight = level.Height * 100;
+            graphics.PreferredBackBufferWidth = level.Width * 64;
+            graphics.PreferredBackBufferHeight = 64 + level.Height * 64;
             graphics.ApplyChanges();
             Content.RootDirectory = "Content";
             DrawableGameComponent renderer = new Tower(this);
@@ -63,10 +63,10 @@ namespace Towerdefence
             
             Texture2D grass = Content.Load<Texture2D>("Grass Block");
             Texture2D path = Content.Load<Texture2D>("Dirt Block");
-            Texture2D tree = Content.Load<Texture2D>("Tree Tall");
+         
             level.AddTexture(grass);
             level.AddTexture(path);
-            level.AddTexture(tree);
+           
 
             Texture2D blockArt = Content.Load<Texture2D>("arrowtower");
             Texture2D blockArt2 = Content.Load<Texture2D>("arrowtower");
